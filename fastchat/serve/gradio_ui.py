@@ -275,7 +275,7 @@ def build_demo():
         state = gr.State()
 
         # Draw layout
-        notice = gr.Markdown(notice_markdown)
+        #notice = gr.Markdown(notice_markdown)
 
         with gr.Row(elem_id="model_selector_row"):
             model_selector = gr.Dropdown(
